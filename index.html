@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="src/reset.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main>
+        <section class="contato">
+            <div class="info">
+                <H1 class="titulo">FICOU COM DÚVIDAS? <BR> NOS MANDE UMA MENSAGEM!</H1>
+                <P class="texto">
+                    Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos
+                    de 24h.
+                </P>
+            </div>
+
+            <form method="post" enctype="multipart/form-data" class="formulario">
+                <input class="entrada espera" type="text" name="nome" id="nome" placeholder=" Nome completo*" >
+                <h4 class="aviso" hidden>campo obrigatório</h4>
+
+                <input class="entrada espera" type="email" name="email" id="email" placeholder=" Email*" >
+                <h4 class="aviso" hidden>campo obrigatório</h4>
+
+                <input class="entrada espera" type="tel" name="telefone" id="telefone" placeholder=" Telefone*" >
+                <h4 class="aviso" hidden>campo obrigatório</h4>
+
+                <textarea class="entrada espera" name="texto" placeholder=" Mensagem*" ></textarea >
+                <h4 class="aviso" hidden>campo obrigatório</h4>
+
+                <h3>*campos obrigatórios</h3>
+
+                <button type="button" class="btn" onclick="enviar()">Enviar</button>
+
+            </form>
+        </section>
+    </main>
+    <script src="src/js/form.js"></script>
+</body>
+
+</html>

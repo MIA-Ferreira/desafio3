@@ -1,0 +1,109 @@
+html {
+    background-color: #e5e5e5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    min-height: 100vh;
+}
+
+.contato {
+    width: 800px;
+    height: 402px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(./imagens/bg-repeat.jpg);
+}
+
+.contato .info {
+    max-width: 300px;
+    max-height: 111px;
+    align-self: center;
+}
+
+.contato .info .titulo {
+    font-size: 1.6rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 23.44px;
+    margin-bottom: 11px;
+}
+
+.contato .info .texto {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 17.58px;
+}
+
+.contato .formulario {
+    max-width: 340px;
+    max-height: 378px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.entrada {
+    width: 298.01px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-left: 20.99px;
+    font-size: 15px;
+}
+
+.contato .formulario input {
+    padding: 5px;
+    height: 35px;
+    margin-top: 12px;
+}
+
+.contato .formulario .btn {
+    width: 298.01px;
+    height: 41.13px;
+    margin-top: 12px;
+    margin-left: 19px;
+    background-color: #3ccc87;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    border: #3ccc87;
+    transition: 0.3s;
+}
+
+.contato .formulario .btn:hover {
+    cursor: pointer;
+    background-color: #00c22b;
+}
+
+.contato .formulario textarea {
+    padding: 5px;
+    height: 9rem;
+    margin-top: 1.2rem;
+}
+
+.contato .formulario h3 {
+    font-size: 1.4rem;
+    margin-left: 1.3rem;
+}
+
+
+/* para o js*/
+
+.aviso {
+    font-size: 8px;
+    margin-left: 21px;
+    color: #f52e2e;
+}
+
+.alerta {
+    border-color: #f52e2e;
+}
+
+.confirmado {
+    border: 2px solid #00c22b;
+}
+

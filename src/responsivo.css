@@ -1,0 +1,36 @@
+@media (max-width: 700px) {
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 35rem;
+        height: 45rem;
+        align-content: space-evenly;
+    }
+
+    .contato .info{
+        flex: 1;
+    }
+
+    .contato .formulario {
+      flex: 1;
+      margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .contato {
+        display: flex;
+        flex-direction: column;
+        width: 28rem;
+        height: 45rem;
+    }
+
+    .contato .info{
+        flex: 1;
+    }
+
+    .contato .formulario {
+      flex: 1;
+      margin: 0 auto;
+    }
+}
